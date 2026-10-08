@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — NSN V1.X Sandbox Deployment</title>
+</head>
+<body>
+<main>
+<h1>Privacy Policy — NSN V1.X Sandbox Deployment</h1>
+<p>Effective October 7, 2026. Operator: Brandyn Mello.</p>
+<h2>Purpose and Google permissions</h2>
+<p>This private, personal-use tool is designed solely to maintain an approved Google Apps Script sandbox application's source and deployment versions.</p>
+<p>It requests only these Google OAuth scopes:</p>
+<ul>
+<li><code>https://www.googleapis.com/auth/script.projects</code> — manage Apps Script project source and versions.</li>
+<li><code>https://www.googleapis.com/auth/script.deployments</code> — manage Apps Script deployments.</li>
+</ul>
+<p>Google grants these permissions at the account level, not for a single project. The tool is designed to restrict its operations to the approved sandbox target. The credential must not be used for other projects.</p>
+<h2>Data accessed and use</h2>
+<p>The tool accesses Apps Script source, project/version metadata, and deployment metadata only as necessary to prepare, publish, and verify sandbox deployments. It receives OAuth credentials needed for those operations. It does not request Google Sheets, Drive, or Calendar data permissions and is not used to read CRM records.</p>
+<h2>Storage and service providers</h2>
+<p>Apps Script source and deployment verification records are retained privately for maintenance and audit. The local authorization bootstrap transfers the OAuth client credential and refresh token directly into encrypted GitHub secret storage. They are not published on this website, committed to repository source, or intentionally written into logs. Access tokens are used transiently for authorized Google API requests.</p>
+<p>Google provides authorization and Apps Script services. GitHub provides private source storage, encrypted secret storage, and deployment automation. Google-derived information is used through these providers only to support the stated deployment purpose.</p>
+<h2>Retention and revocation</h2>
+<p>Authorization credentials are retained only while the deployment capability is needed. Brandyn can revoke the application's access in his Google Account's third-party connections settings and remove the associated GitHub secrets. Revocation stops further authorized access but does not automatically delete previously retained source or verification records. Requests concerning retained data should be directed to the operator.</p>
+<h2>Limits on use</h2>
+<p>Google user data is not sold, used for advertising, or used to train artificial intelligence models. It is not shared with third parties for unrelated purposes.</p>
+<p>NSN V1.X Sandbox Deployment's use and transfer of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.</p>
+<h2>This public site</h2>
+<p>This website is informational only. It contains no forms, application authentication, analytics scripts, or deployment controls. Its hosting provider may process ordinary request information according to its own privacy policy.</p>
+<h2>Questions</h2>
+<p>Contact Brandyn Mello using the support email displayed on this application's Google OAuth consent screen.</p>
+<p><a href="./">Application homepage</a></p>
+</main>
+</body>
+</html>
